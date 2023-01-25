@@ -84,9 +84,9 @@ img{
     height: 389px;
     background-color: #fff;
     border-radius: 50%;
-    background-image: url('../img/SNEP9915.jpg');
+    background-image: url('../img/IMG.jpg');
     background-repeat: no-repeat; /* подивитися*/
-    background-position: -90px 0px;
+    background-position: -15px -20px;
     border: 13px solid #fff;
 
 }
@@ -100,8 +100,18 @@ img{
     align-items: flex-start;
     justify-content: space-between;
 }
+.projects-slide {
+    background-image: url('../img/project-img.jpg');
+}
+.projects-image-a{
+    width: 45%;
+}
+.projects-image{
+    width: 100%;
+    border-radius: 10px;
+}
 .project-text{
-    flex-basis: 60%;
+    flex-basis: 52%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -322,8 +332,9 @@ img{
         width: 113px;
         height: 113px;
         border-width: 4px;
-        background-image: url('../img/SNEP9916.jpg');
-        background-position: 37%;
+        background-image: url('../img/IMG.jpg');
+        background-size: cover;
+        background-position: 1px;
     }
     .hero-header{
         margin-bottom: 38px;
@@ -344,6 +355,10 @@ img{
         font-size: 14px;
         line-height: 140%;
     }  
+    .projects-image-a{
+        width: 70%;
+        margin: auto;
+    }
     .section{
         padding: 60px 0;
     }

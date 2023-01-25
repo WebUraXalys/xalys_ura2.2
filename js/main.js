@@ -7,3 +7,9 @@ var mySwiper = new Swiper('.swiper-container', {
         clickable: true
       },
 });
+
+const buttonF = document.querySelector(".form-buton");
+
+buttonF.addEventListener('click', function (event) {
+    alert("Помилка часу.")
+});
